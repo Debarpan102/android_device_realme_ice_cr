@@ -70,7 +70,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    als_correction_service.lunaa
+    vendor.lineage.oplus_als.service
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
