@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ice.mk
+    $(LOCAL_DIR)/droidx_ice.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_ice-user \
-    lineage_ice-userdebug \
-    lineage_ice-eng
+    droidx_ice-user \
+    droidx_ice-userdebug \
+    droidx_ice-eng
