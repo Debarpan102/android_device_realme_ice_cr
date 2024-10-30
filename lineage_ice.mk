@@ -12,9 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/ice/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/droidx/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := droidx_ice
+PRODUCT_NAME := lineage_ice
 PRODUCT_DEVICE := ice
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
@@ -24,15 +24,6 @@ PRODUCT_SYSTEM_NAME := RE54BFL1
 PRODUCT_SYSTEM_DEVICE := RE54BFL1
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
-
-# Droidx Props
-DROIDX_BUILD_TYPE := UNOFFICIAL
-DROIDX_GAPPS := false
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_USE_GOOGLE_TELEPHONY := true
-
-#Droidx Maintainer
-ro.droidx.maintainer=Debarpan102
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="RMX3461-user 13 TP1A.220905.001 R.1119f23-59b8-59b9 release-keys" \
