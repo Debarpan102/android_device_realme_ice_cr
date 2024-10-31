@@ -25,6 +25,9 @@ PRODUCT_SYSTEM_DEVICE := RE54BFL1
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
+# Boot animation resolution 
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # Matrixx
 MATRIXX_BUILD_TYPE := Unofficial 
 MATRIXX_MAINTAINER := Debarpan102
