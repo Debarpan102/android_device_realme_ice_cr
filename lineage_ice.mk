@@ -26,10 +26,10 @@ PRODUCT_SYSTEM_DEVICE := RE54BFL1
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 # Default is COMMUNITY. official builds are OFFICIAL
-CUSTOM_BUILD_TYPE := COMMUNITY
+#CUSTOM_BUILD_TYPE := COMMUNITY
 
 # Set your name for display in banner.
-CUSTOM_MAINTAINER := Debarpan102
+#CUSTOM_MAINTAINER := Debarpan102
 
 # Boot animation resolution, choose from 480, 720, 1080, 1440.
 # Default is 1080
