@@ -29,7 +29,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-oppo
 #CUSTOM_BUILD_TYPE := COMMUNITY
 
 # Set your name for display in banner.
-#CUSTOM_MAINTAINER := Debarpan102
+CUSTOM_MAINTAINER := Debarpan102
 
 # Boot animation resolution, choose from 480, 720, 1080, 1440.
 # Default is 1080
