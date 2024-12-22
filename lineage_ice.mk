@@ -24,12 +24,6 @@ PRODUCT_SYSTEM_NAME := RE54BFL1
 PRODUCT_SYSTEM_DEVICE := RE54BFL1
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
-# gms
-
-WITH_GMS := true
-
-# Boot animation resolution 
-# TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc=$(call normalize-path-list, "RMX3461-user 13 TP1A.220905.001 R.1119f23-59b8-59b9 release-keys") \
