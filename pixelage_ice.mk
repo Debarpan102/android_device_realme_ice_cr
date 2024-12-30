@@ -11,10 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from ice device
 $(call inherit-product, device/realme/ice/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Pixelage stuff.
+$(call inherit-product, vendor/pixelage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_ice
+PRODUCT_NAME := pixelage_ice
 PRODUCT_DEVICE := ice
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
@@ -25,14 +25,7 @@ PRODUCT_SYSTEM_DEVICE := RE54BFL1
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
-# Default is COMMUNITY. official builds are OFFICIAL
-#CUSTOM_BUILD_TYPE := COMMUNITY
-
-# Set your name for display in banner.
-CUSTOM_MAINTAINER := Debarpan102
-
-# Boot animation resolution, choose from 480, 720, 1080, 1440.
-# Default is 1080
+# Boot Animation Resolution 
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # If you want to build vanilla, set false.
