@@ -83,3 +83,6 @@ $(call inherit-product, device/oneplus/sm8350-common/common.mk)
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/realme/ice/ice-vendor.mk)
+
+# for signing builds
+-include vendor/lineage-priv/keys/keys.mk

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ice.mk
+    $(LOCAL_DIR)/pixelage_ice.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_ice-user \
-    lineage_ice-userdebug \
-    lineage_ice-eng
+    pixelage_ice-user \
+    pixelage_ice-userdebug \
+    pixelage_ice-eng
