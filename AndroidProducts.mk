@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixelage_ice.mk
+    $(LOCAL_DIR)/yaap_ice.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixelage_ice-user \
-    pixelage_ice-userdebug \
-    pixelage_ice-eng
+    yaap_ice-user \
+    yaap_ice-userdebug \
+    yaap_ice-eng

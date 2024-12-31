@@ -11,10 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from ice device
 $(call inherit-product, device/realme/ice/device.mk)
 
-# Inherit some common Pixelage stuff.
-$(call inherit-product, vendor/pixelage/config/common_full_phone.mk)
+# Inherit some common YAPP stuff.
+$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
-PRODUCT_NAME := pixelage_ice
+PRODUCT_NAME := yaap_ice
 PRODUCT_DEVICE := ice
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
@@ -27,9 +27,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 # Boot Animation Resolution 
 TARGET_BOOT_ANIMATION_RES := 1080
-
-# If you want to build vanilla, set false.
-WITH_GMS := true
 
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
