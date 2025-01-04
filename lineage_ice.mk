@@ -25,19 +25,9 @@ PRODUCT_SYSTEM_DEVICE := RE54BFL1
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
-# Default is COMMUNITY. official builds are OFFICIAL
-#CUSTOM_BUILD_TYPE := COMMUNITY
-
-# Set your name for display in banner.
-CUSTOM_MAINTAINER := Debarpan102
-
 # Boot animation resolution, choose from 480, 720, 1080, 1440.
 # Default is 1080
 TARGET_BOOT_ANIMATION_RES := 1080
-
-# If you want to build vanilla, set false.
-WITH_GMS := true
-
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc=$(call normalize-path-list, "RMX3461-user 13 TP1A.220905.001 R.1119f23-59b8-59b9 release-keys") \
