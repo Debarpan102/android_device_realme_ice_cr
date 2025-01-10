@@ -25,6 +25,9 @@ PRODUCT_SYSTEM_DEVICE := RE54BFL1
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
+# Lunch banner maintainer variable
+RISING_MAINTAINER="Debarpan102"
+
 # RisingOS Flags
 PRODUCT_BUILD_PROP_OVERRIDES += \
     RISING_CHIPSET="Snapdragon 778G" \
