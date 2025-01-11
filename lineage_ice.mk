@@ -30,8 +30,8 @@ RISING_MAINTAINER="Debarpan102"
 
 # RisingOS Flags
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    RISING_CHIPSET="Snapdragon 778G" \
-    RISING_MAINTAINER="Debarpan102"
+    RisingChipset="Snapdragon 778G" \
+    RisingMaintainer="Debarpan102"
 RISING_PACKAGE_TYPE := GAPPS
 WITH_GMS := true
 TARGET_CORE_GMS := true
