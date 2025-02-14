@@ -24,6 +24,8 @@ PRODUCT_SYSTEM_NAME := RE54BFL1
 PRODUCT_SYSTEM_DEVICE := RE54BFL1
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
+# Disable OMX service
+TARGET_SUPPORTS_OMX_SERVICE := false
 
 # Boot animation resolution, choose from 480, 720, 1080, 1440.
 # Default is 1080
